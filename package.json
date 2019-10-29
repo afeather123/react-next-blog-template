@@ -1,0 +1,30 @@
+{
+  "name": "next-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "cd ./generatePostmetadata && ts-node ./index.ts && cd .. && next build",
+    "export": "next export",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdx-js/loader": "^1.5.1",
+    "@next/mdx": "^9.1.1",
+    "@zeit/next-sass": "^1.0.1",
+    "next": "^9.1.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.12",
+    "@types/react": "^16.9.5",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  }
+}

@@ -1,0 +1,22 @@
+.red {
+    color: red;
+}
+
+.postCard {
+    padding: 1em 2em;
+}
+
+.postTitle {
+    font-size: 2em;
+    color: #3273dc;
+    text-decoration: none;
+}
+
+.postTitle:hover {
+    color: #441466;
+    transition: color 0.2s ease-in;
+}
+
+.postContainer > * + * {
+    border-top: 1px solid #ebebeb;    
+}
